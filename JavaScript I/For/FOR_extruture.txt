@@ -1,0 +1,5 @@
+Sintaxe:
+
+for (inicializacao; condicao; finalizacao) {
+  // ...
+}

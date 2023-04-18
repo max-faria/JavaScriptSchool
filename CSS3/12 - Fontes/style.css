@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa+One&family=Nunito:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa+One&family=Josefin+Sans&family=Nunito:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa+One&family=Josefin+Sans&family=Lobster&family=Nunito:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa+One&family=Josefin+Sans&family=Lobster&family=Nunito:wght@300;400&family=Shadows+Into+Light&display=swap");
+
+.text {
+  font-family: Nunito, Arial, sans-serif;
+  text-indent: 20px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  word-spacing: 5px;
+  text-align-last: right;
+}
+
+h1 {
+  font-family: Changa One, Arial, sans-serif;
+  text-shadow: 2px 2px 2px purple;
+  text-align: center;
+  font-size: 70px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+#text1 {
+  font-family: Josefin Sans, Arial, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 20px 20px 20px;
+}
+
+#text2 {
+  font-family: Lobster, Arial, Helvetica, sans-serif;
+  text-decoration-line: underline;
+  text-decoration-color: green;
+  text-decoration-style: dashed;
+  font-size: 30px;
+  width: 50%;
+  margin: auto;
+}
+
+#text3 {
+  font-family: Shadows Into Light, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  width: 15%;
+  border: 2px solid;
+  padding: 10px;
+  margin: auto;
+}

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa+One&family=Josefin+Sans&family=Lobster&family=Nunito:wght@300;400&family=Roboto:ital,wght@1,300&family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+div.post-container {
+  background-color: #fffafa;
+}
+
+body {
+  margin: 0px;
+}
+.post-container {
+  width: 70%;
+  margin: auto;
+  height: 100%;
+  background-color: #fffafa;
+}
+
+.post-container .date {
+  font-family: Roboto, Arial, sans-serif;
+  color: #008080;
+}
+
+h1 {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.post-container div.post-content {
+  width: 90%;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.post-container .post {
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
