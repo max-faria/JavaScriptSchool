@@ -48,6 +48,7 @@ document.getElementById("equal").addEventListener("click", function () {
 input.addEventListener("keydown", function (ev) {
   ev.preventDefault(); // to prevent the normal behavoir of the function
   if (allowedKeys.includes(ev.key)) {
+    //we use key to specify values from the keyboard
     // verify if the ev.key is in allowed keys
     input.value += ev.key;
     return;
