@@ -1,5 +1,40 @@
 body {
   font-family: sans-serif;
+  align-items: center;
+  align-content: center;
+  background-color: #232323;
+}
+
+h1 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: purple;
+  font-size: 50px;
+  letter-spacing: 4px;
+  text-shadow: 3px 3px black;
+}
+
+.players {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1rem 10rem;
+  grid-template-rows: 2rem 2rem;
+  align-items: center;
+  color: bisque;
+  justify-content: center;
+}
+
+#start {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 11rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  color: bisque;
 }
 
 #gameboard {
@@ -10,6 +45,7 @@ body {
   gap: 0.5rem;
   margin-bottom: 1.5rem;
   max-width: 19rem;
+  margin: auto;
 }
 
 #gameboard span {
