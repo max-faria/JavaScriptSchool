@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "babel": "babel src --out-dir dist",
+    "statics": "node src/index.js",
+    "hello": "node src/hello.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.2"
+  }
+}
