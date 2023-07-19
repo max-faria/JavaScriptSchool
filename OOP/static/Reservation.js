@@ -26,7 +26,5 @@ Reservation.showBaseFee();
 const r1 = new Reservation(3, "201", 5);
 console.log(r1);
 
-const 
-
 console.log(`Using gettter: Base fee is ${Reservation.getBaseFee}`);
 console.log(`Premium fee is ${Reservation.premiumFee}`);
